@@ -1,0 +1,24 @@
+* This repo is for testing converting table data to rdf.
+
+Questions
+
+Dataset names	Description	Code Names	Dataset size	N (Line counts)	Available
+Genome-wide - Illumina 660 quad - G0 mothers	Genome-wide array data including raw files and genotype calls for G0 mothers	gwa_660_g0m	115GB	*	yes
+Genome-wide - Illumina exome core array - G0 partners	Genome-wide array data including raw files and genotype calls for G0 partners, also including additional G0 mothers and G1 individuals who were absent from previous genotyping rounds	gwa_exome_g0p	200GB	*	yes
+Genome-wide - Illumina 550 quad - G1	Genome-wide array data including raw files and genotype calls for G1 individuals	gwa_550_g1	200GB	*	yes
+
+
+1. What do the rows represent?
+2. What do the collums represent?
+3. For each col what type of values do I have?
+
+List of collums
+
+Dataset names
+Description
+Code Names
+Dataset size
+N
+Available
+
+
