@@ -47,4 +47,10 @@ tripples_terms(Tripples,Terms):-
 %@ Terms = [0, 4, 5, 10, 31, 38, 50, 100, '1 ft'|...].
 
 
+rdf_register_ns(sams, 'http://samneaves.com'),
 
+df_assert(sams:'Walrus', sams:cake, literal('10')).
+
+rdf_save('Amsterdam.rdf',
+            [ graph('http://dbpedia.org/resource/Amsterdam') ]).
+rdf_assert(+Subject, +Predicate, +Object).
